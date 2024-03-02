@@ -99,3 +99,9 @@ git push -u origin project2
   - `project2`: The branch name.
 
 ---
+
+common issue 
+if github says cannot resolve hostname github.com, use this command
+```bash
+git config --global --unset https.proxy
+```
