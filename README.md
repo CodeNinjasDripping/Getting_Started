@@ -108,23 +108,23 @@ git config --global --unset https.proxy
 
 Files larger than 100MB
 - for files larger than 100MB, you have to track them using git lfs
-- ```bash
+  ```bash
   git install lfs
   ```
 - make sure you're not adding the large files before tracking them with lfs, if you are, then you have to reinitialize the repo and follow these steps, starting with the one above.
 - after installing lfs, track the large files using lfs, for example:
 
-- ```bash
+  ```bash
   git lfs track "*.dll"
   git lfs track "*.dylib"
   git lfs track "*.so"
   ```
 - then add the git attributes with
-- ```bash
+  ```bash
   git add .gitattributes
   ```
 - and then add the regular files
-- ```bash
+  ```bash
   git add .
   ```
 - then after that, do a regular commit and push to the specific branch
