@@ -100,13 +100,13 @@ git push -u origin project2
 
 ---
 
-common issue 
-if github says cannot resolve hostname github.com, use this command
+##common issues
+### If github says cannot resolve hostname github.com, use this command
 ```bash
 git config --global --unset https.proxy
 ```
 
-Files larger than 100MB
+### Files larger than 100MB
 - for files larger than 100MB, you have to track them using git lfs
   ```bash
   git install lfs
