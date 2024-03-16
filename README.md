@@ -119,12 +119,12 @@ Files larger than 100MB
   git lfs track "*.dylib"
   git lfs track "*.so"
   ```
-  - then add the git attributes with
-  - ```bash
-      git add .gitattributes
-    ```
-  - and then add the regular files
-  - ```bash
-      git add .
-    ```
-    - then after that, do a regular commit and push to the specific branch
+- then add the git attributes with
+- ```bash
+  git add .gitattributes
+  ```
+- and then add the regular files
+- ```bash
+  git add .
+  ```
+- then after that, do a regular commit and push to the specific branch
