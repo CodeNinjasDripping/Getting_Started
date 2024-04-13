@@ -39,30 +39,33 @@
 Determine the student's goal:
 - 🆕 Starting a New Project
 - 🔄 Continuing an Existing Project
-
-
 ---
 
 ### 🌟 Starting a New Project
 
 #### 🛠️ Step 1: Creating a Local Repository
 1. **Open GitHub Desktop:** Assuming you're already signed in, navigate to `File > New Repository`.
-    - ![](file-new-repo.png)
+![](file-new-repo.png)
 3. **Repository Details:**
    - **Name:** Format the repository name as `firstname_lastname_project_name`.
    - **Description:** Leave this field empty to keep things neat.
    - **Local Path:** Set the path to your desktop, e.g., `C:\Users\logan\Desktop`.
    - **Initialize Options:** No README, .gitignore, or License. Keep it simple!
+     ![](create-new-repo.png)
 
 #### 🚀 Step 2: Publishing to GitHub
 1. **Publish Repository:** Click the 'Publish Repository' button in GitHub Desktop.
-2. **Remote Repository Settings:**
+![](publish-repo.png)
+3. **Remote Repository Settings:**
    - **Repository Name:** Should match the local repository name.
    - **Privacy:** Make sure the repository is public—uncheck any options for privacy.
+   - Once that's taken care of, publish the repo!
+   ![](publish-repo-field)
 
 #### 🎮 Step 3: Setting Up the Project
 1. **Create a Unity Project:** Fire up Unity and establish a new project in the directory you set on your desktop.
    - **Project Name:** Stick to the `firstname_lastname_project_name` convention.
+   ![](unity-hub-project-settings.png)
 
 ### 💾 Saving the Project to GitHub
 
@@ -71,16 +74,21 @@ Determine the student's goal:
    - **Check Repository:** Make sure you're in the correct repository on GitHub Desktop.
    - **Summary & Description:** Fill in the 'Summary' with the **current date** and let students detail their progress in the 'Description'.
    - **Commit to Main:** Hit that 'Commit to main' button and push the changes online.
+   ![](commit-summary.png)
 
 ### 🔁 Continuing an Existing Project
 1. **Access GitHub Desktop:** Assuming you're already logged in, navigate to `File > Clone Repository`.
-2. **Select the Project:**
+![](clone-repo.png)
+3. **Select the Project:**
    - Choose the repository named `firstname_lastname_project_name`.
    - **Local Path:** Ensure the location is set to `C:\Users\logan\Desktop`.
    - **Clone:** Hit the 'Clone' button.
-3. **Initialize Git LFS:** If prompted, activate Git LFS by clicking the blue button. This is crucial for handling large files!
-4. **Open Unity Hub:** Select `Add->Add Project from Disk`, browse to the cloned repository directory, and open the project.
-5. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#💾-saving-the-project-to-github).
+   ![](clone-repo-desktop.png)
+4. **Initialize Git LFS:** If prompted, activate Git LFS by clicking the blue button. This is crucial for handling large files!
+![](git-lfs.png)
+6. **Open Unity Hub:** Select `Add->Add Project from Disk`, browse to the cloned repository directory, and open the project.
+1[](add-project-from-disk.png)
+8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#💾-saving-the-project-to-github).
 
 ---
 
