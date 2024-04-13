@@ -56,6 +56,7 @@ Determine the student's goal:
 #### 🚀 Step 2: Publishing to GitHub
 1. **Publish Repository:** Click the 'Publish Repository' button in GitHub Desktop.
  ![](publish-repo.png)
+
 3. **Remote Repository Settings:**
    - **Repository Name:** Should match the local repository name.
    - **Privacy:** Make sure the repository is public—uncheck any options for privacy.
@@ -74,6 +75,7 @@ Determine the student's goal:
    - **Check Repository:** Make sure you're in the correct repository on GitHub Desktop.
    - **Summary & Description:** Fill in the 'Summary' with the **current date** and let students detail their progress in the 'Description'.
    - **Commit to Main:** Hit that 'Commit to main' button and push the changes online.
+     
    ![](commit-summary.png)
 
 ### 🔁 Continuing an Existing Project
