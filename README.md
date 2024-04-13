@@ -55,7 +55,7 @@ Determine the student's goal:
 
 #### 🚀 Step 2: Publishing to GitHub
 1. **Publish Repository:** Click the 'Publish Repository' button in GitHub Desktop.
-![](publish-repo.png)
+ ![](publish-repo.png)
 3. **Remote Repository Settings:**
    - **Repository Name:** Should match the local repository name.
    - **Privacy:** Make sure the repository is public—uncheck any options for privacy.
