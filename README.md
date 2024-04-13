@@ -47,7 +47,7 @@ Determine the student's goal:
 
 #### 🛠️ Step 1: Creating a Local Repository
 1. **Open GitHub Desktop:** Assuming you're already signed in, navigate to `File > New Repository`.
-    - (file-new-repo.png)
+    - ![](file-new-repo.png)
 3. **Repository Details:**
    - **Name:** Format the repository name as `firstname_lastname_project_name`.
    - **Description:** Leave this field empty to keep things neat.
