@@ -78,7 +78,7 @@ Determine the student's goal:
    - **Local Path:** Ensure the location is set to `C:\Users\logan\Desktop`.
    - **Clone:** Hit the 'Clone' button.
 3. **Initialize Git LFS:** If prompted, activate Git LFS by clicking the blue button. This is crucial for handling large files!
-4. **Open Unity Hub:** Select `Add->Add Remote Project`, browse to the cloned repository directory, and open the project.
+4. **Open Unity Hub:** Select `Add->Add Project from Disk`, browse to the cloned repository directory, and open the project.
 5. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#💾-saving-the-project-to-github).
 
 ---
