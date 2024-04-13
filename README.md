@@ -1,28 +1,27 @@
-
 # Unity Project Setup and Management Guide With GitHub Desktop 🚀
 
 ## Table of Contents
 
 - [Unity Project Setup and Management Guide With GitHub Desktop](#unity-project-setup-and-management-guide-with-github-desktop)
 - [Table of Contents](#table-of-contents)
-- [Essential Credentials 🗝️](#essential-credentials-🗝️)
+- [Essential Credentials](#essential-credentials)
   - [Unity/GitHub Account Access](#unitygithub-account-access)
-- [Preparing for Students 🎒](#preparing-for-students-🎒)
+- [Preparing for Students](#preparing-for-students)
   - [GitHub Desktop](#github-desktop)
   - [Unity](#unity)
-- [Handling Student Sessions 📚](#handling-student-sessions-📚)
+- [Handling Student Sessions](#handling-student-sessions)
   - [Student Arrival](#student-arrival)
-  - [Starting a New Project 🌟](#🌟-starting-a-new-project)
-  - [Saving the Project to GitHub 💾](#💾-saving-the-project-to-github)
-  - [Continuing an Existing Project 🔁](#🔁-continuing-an-existing-project)
+  - [Starting a New Project](#starting-a-new-project)
+  - [Saving the Project to GitHub](#saving-the-project-to-github)
+  - [Continuing an Existing Project](#continuing-an-existing-project)
 
-## Essential Credentials 🗝️
+## Essential Credentials 
 
 ### Unity/GitHub Account Access
 - **Username:** `CodeNinjasDripping`
 - **Password:** `Code_Ninjas!2024`
 
-## Preparing for Students 🎒
+## Preparing for Students
 
 ### GitHub Desktop
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
@@ -33,7 +32,7 @@
 2. **Download and Install (if needed):** If Unity is not installed, download it from the [Unity Download Page](https://unity.com/download).
 3. **Account Sign-In:** Use the [provided credentials](#unitygithub-account-access). Allow students to use their own accounts if available.
 
-## Handling Student Sessions 📚
+## Handling Student Sessions
 
 ### Student Arrival
 Determine the student's goal:
@@ -41,7 +40,7 @@ Determine the student's goal:
 - 🔄 Continuing an Existing Project
 ---
 
-### 🌟 Starting a New Project
+### Starting a New Project
 
 #### 🛠️ Step 1: Creating a Local Repository
 1. **Open GitHub Desktop:** Assuming you're already signed in, navigate to `File > New Repository`.
@@ -69,7 +68,7 @@ Determine the student's goal:
    - **Project Name:** Stick to the `firstname_lastname_project_name` convention.
    ![](unity-hub-project-settings.png)
 
-### 💾 Saving the Project to GitHub
+### Saving the Project to GitHub
 
 1. **Prepare to Save:** ⏰ About 10 minutes before wrapping up, ensure students save their Unity project and close the application.
 2. **Commit Changes:**
@@ -79,7 +78,7 @@ Determine the student's goal:
      
    ![](commit-summary.png)
 
-### 🔁 Continuing an Existing Project
+### Continuing an Existing Project
 1. **Access GitHub Desktop:** Assuming you're already logged in, navigate to `File > Clone Repository`.
 ![](clone-repo.png)
 3. **Select the Project:**
