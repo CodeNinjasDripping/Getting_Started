@@ -75,7 +75,7 @@ Determine the student's goal:
 ![](clone-repo.png)
 3. **Select the Project:**
    - Choose the repository named `firstname_lastname_project_name`.
-   - **Local Path:** Ensure the location is set to `C:\Users\logan\Desktop`.
+   - **Local Path:** Ensure the location is set to `C:\Users\user\Desktop`.
    - **Clone:** Hit the 'Clone' button.
    ![](clone-repo-desktop.png)
 4. **Initialize Git LFS:** If prompted, activate Git LFS by clicking the blue button. This is crucial for handling large files!
