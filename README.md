@@ -28,8 +28,8 @@
 
 ### Student Arrival
 Determine the student's goal:
-- 🆕 Starting a New Project
-- 🔄 Continuing an Existing Project
+- 🆕 [Starting a New Project](#starting-a-new-project)
+- 🔄 [Continuing an Existing Project](#continuing-an-existing-project)
 ---
 
 ### Starting a New Project
