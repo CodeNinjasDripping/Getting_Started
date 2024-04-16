@@ -4,8 +4,6 @@
 
 - [Unity Project Setup and Management Guide With GitHub Desktop](#unity-project-setup-and-management-guide-with-github-desktop)
 - [Table of Contents](#table-of-contents)
-- [Essential Credentials](#essential-credentials)
-  - [Unity/GitHub Account Access](#unitygithub-account-access)
 - [Preparing for Students](#preparing-for-students)
   - [GitHub Desktop](#github-desktop)
   - [Unity](#unity)
@@ -15,22 +13,16 @@
   - [Saving the Project to GitHub](#saving-the-project-to-github)
   - [Continuing an Existing Project](#continuing-an-existing-project)
 
-## Essential Credentials 
-
-### Unity/GitHub Account Access
-- **Username:** `CodeNinjasDripping`
-- **Password:** `Code_Ninjas!2024`
-
 ## Preparing for Students
 
 ### GitHub Desktop
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
-- Sign into GitHub Desktop with the center GitHub account, [provided credentials](#unitygithub-account-access). You must also be signed into GitHub.com for authentication.
+- Sign into GitHub Desktop with the center GitHub account, the credentials are in the center discord general channel. You must also be signed into GitHub.com for authentication.
 
 ### Unity
 1. **Unity Hub Check:** Ensure both Unity Hub and the Unity environment are installed. Search for `unity` to verify.
 2. **Download and Install (if needed):** If Unity is not installed, download it from the [Unity Download Page](https://unity.com/download).
-3. **Account Sign-In:** Use the [provided credentials](#unitygithub-account-access). Allow students to use their own accounts if available.
+3. **Account Sign-In:** Use the credentials in the center discord general channel to sign into the center account. Allow students to use their own accounts if available.
 
 ## Handling Student Sessions
 
