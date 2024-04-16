@@ -69,7 +69,7 @@ Determine the student's goal:
    - **Commit to Main:** Hit that 'Commit to main' button and push the changes online.
      
    ![](commit-summary.png)
-
+---
 ### Continuing an Existing Project
 1. **Access GitHub Desktop:** Assuming you're already logged in, navigate to `File > Clone Repository`.
 ![](clone-repo.png)
