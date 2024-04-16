@@ -25,7 +25,7 @@
 
 ### GitHub Desktop
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
-- Sign into GitHub Desktop with the center GitHub account. You must also be signed into GitHub.com for authentication.
+- Sign into GitHub Desktop with the center GitHub account, [provided credentials](#unitygithub-account-access). You must also be signed into GitHub.com for authentication.
 
 ### Unity
 1. **Unity Hub Check:** Ensure both Unity Hub and the Unity environment are installed. Search for `unity` to verify.
