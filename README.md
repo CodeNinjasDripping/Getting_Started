@@ -84,7 +84,7 @@ Determine the student's goal:
 
 ![](add-project-from-disk.png)
 
-8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#💾-saving-the-project-to-github).
+8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#saving-the-project-to-github).
 
 ---
 
