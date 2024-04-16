@@ -80,7 +80,8 @@ Determine the student's goal:
    ![](clone-repo-desktop.png)
 4. **Initialize Git LFS:** If prompted, activate Git LFS by clicking the blue button. This is crucial for handling large files!
 ![](git-lfs.png)
-6. **Open Unity Hub:** Select `Add->Add Project from Disk`, browse to the cloned repository directory, and open the project. 
+6. **Open Unity Hub:** Select `Add->Add Project from Disk`, browse to the cloned repository directory, and open the project.
+
 ![](add-project-from-disk.png)
 
 8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#💾-saving-the-project-to-github).
