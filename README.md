@@ -12,6 +12,7 @@
   - [Starting a New Project](#starting-a-new-project)
   - [Saving the Project to GitHub](#saving-the-project-to-github)
   - [Continuing an Existing Project](#continuing-an-existing-project)
+- [Troubleshooting](#Troubleshooting-Large-Files-with-Git-LFS)
 
 ## Preparing for Students
 
@@ -86,5 +87,101 @@ Determine the student's goal:
 
 8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#saving-the-project-to-github).
 
+---
+
+
+## Troubleshooting Large Files with Git LFS
+
+
+### Step 1: Install Git LFS
+First, you need to install Git LFS on your system. Open your command prompt or terminal and install Git LFS by running:
+
+```bash
+git lfs install
+```
+
+This command configures Git LFS to be used in any repository on your system.
+
+### Step 2: Navigate to Your Local Repository
+Using the command line, navigate to the local repository where you are encountering the large file issue:
+
+```bash
+cd path/to/your/repository
+```
+
+Replace `path/to/your/repository` with the actual path to your local Git repository.
+
+### Step 3: Track Large Files with Git LFS
+Identify the file types mentioned in the error message (for example, `.psd`, `.zip`). Use Git LFS to track these file types by running:
+
+```bash
+git lfs track "*.psd"
+git lfs track "*.zip"
+```
+
+Replace the file patterns with those relevant to your specific situation.
+
+### Step 4: Update .gitattributes
+The `git lfs track` command updates the `.gitattributes` file, marking the specified file types to be handled by Git LFS. You need to add and commit this file to your repository:
+
+```bash
+git add .gitattributes
+git commit -m "Configure Git LFS tracking"
+```
+
+### Step 5: Commit Changes Using GitHub Desktop
+After setting up Git LFS in the command line:
+
+1. Open GitHub Desktop.
+2. Navigate to your repository.
+3. You should now be able to commit the previously troublesome large files through GitHub Desktop without encountering size limitations.
+4. Commit your changes as usual in GitHub Desktop and push them to the remote repository.
+
+
+## Handling Long Filename Issues in Git on Windows
+
+### Step 1: Open PowerShell as Administrator
+
+To modify system-level configurations, you need to run PowerShell with administrative privileges:
+
+1. Click on the Start menu.
+2. Type `PowerShell`.
+3. Right-click on the `Windows PowerShell` icon, and select `Run as administrator`.
+4. Click `Yes` on the User Account Control prompt to allow the app to make changes.
+
+### Step 2: Configure Git to Handle Long Paths
+
+With PowerShell running as an administrator, execute the following command to allow Git to handle long paths:
+
+```bash
+git config --system core.longpaths true
+```
+
+This command configures Git at the system level to support file paths longer than the traditional Windows limit.
+
+### Step 3: Verify Configuration
+
+To ensure the configuration has been successfully applied, use the following command:
+
+```bash
+git config --get core.longpaths
+```
+
+If the setting is correctly applied, it will return `true`.
+
+### Step 4: Apply the Configuration to Your Repository
+
+Navigate to your repository's directory in PowerShell and apply the configuration locally if you prefer not to set it system-wide:
+
+```bash
+cd path/to/your/repository
+git config core.longpaths true
+```
+
+Replace `path/to/your/repository` with the actual path to your Git repository.
+
+### Step 5: Retry Your Git Operations
+
+After applying the configuration, return to GitHub Desktop and commit the changes, then push to the remote repo.
 ---
 
