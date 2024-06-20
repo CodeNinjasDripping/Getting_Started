@@ -187,5 +187,5 @@ After applying the configuration, return to GitHub Desktop and commit the change
 
 ### Filename too long error during cloning from remote repo
   - If that error is encountered, manually download the zip repo file from github.com, unzip it into a folder on the desktop, load it into unity and let them work on the project that way
-  - Once they finish, refer to [Continuing a Different Project](#continuing-a-different-project)
+  - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
 
