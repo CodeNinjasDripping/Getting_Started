@@ -10,8 +10,8 @@
   - [Saving the Project to GitHub](#saving-the-project-to-github)
   - [Continuing an Existing Project](#continuing-an-existing-project)
 - [Troubleshooting](#troubleshooting)
-  - [Handling Large Files with Git LFS](#handling-large-files-with-git-lfs)
-  - [Handling Long Filename Issues in Git on Windows](#Troubleshooting-long-filename-issues-in-git-on-windows)
+  - [Handling Large Files with Git LFS](#troubleshooting-large-files-with-git-lfs)
+  - [Handling Long Filename Issues in Git on Windows](#handling-long-filename-issues-in-git-on-windows)
 
 ## Preparing for Students
 
