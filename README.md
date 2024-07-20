@@ -191,6 +191,7 @@ git config core.longpaths true
 Replace `path/to/your/repository` with the actual path to your Git repository.
 
 ### Here's an example of what the whole process looks like in powershell
+- you will start in `system32`, you have to cd.. out of it and navigate to the local repo
 ![](long-name-solution-example.jpg)
 
 ### Step 5: Retry Your Git Operations
