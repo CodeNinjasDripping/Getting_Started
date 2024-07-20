@@ -117,11 +117,10 @@ cd path/to/your/repository
 Replace `path/to/your/repository` with the actual path to your local Git repository.
 
 ### Step 3: Track Large Files with Git LFS
-Identify the file types mentioned in the error message (for example, `.dylib`, `.zip`). Use Git LFS to track these file types by running:
+Identify the file types mentioned in the error message (for example, `.dylib`). Use Git LFS to track these file types by running:
 
 ```bash
 git lfs track "*.dylib"
-git lfs track "*.zip"
 ```
 
 ![](track-file-example.jpg)
