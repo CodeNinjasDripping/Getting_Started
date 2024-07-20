@@ -92,8 +92,8 @@ Determine the student's goal:
 
 ## Troubleshooting Large Files with Git LFS
 
-Example
-![](lfs-too-large.png)
+**Example**
+![](lfs-too-large.jpg)
 
 ### Step 1: Install Git LFS
 First, you need to install Git LFS on your system. Open your command prompt or terminal and install Git LFS by running:
@@ -104,7 +104,10 @@ git lfs install
 
 This command configures Git LFS to be used in any repository on your system.
 
-### Step 2: Navigate to Your Local Repository
+If you get this error that git isn't recognized, then you have to [install git](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
+![](git-not-recognized.jpg)
+
+### Step 2: Navigate to Your Local Repository assuming git is installed
 Using the command line, navigate to the local repository where you are encountering the large file issue:
 
 ```bash
@@ -114,12 +117,14 @@ cd path/to/your/repository
 Replace `path/to/your/repository` with the actual path to your local Git repository.
 
 ### Step 3: Track Large Files with Git LFS
-Identify the file types mentioned in the error message (for example, `.psd`, `.zip`). Use Git LFS to track these file types by running:
+Identify the file types mentioned in the error message (for example, `.dylib`, `.zip`). Use Git LFS to track these file types by running:
 
 ```bash
-git lfs track "*.psd"
+git lfs track "*.dylib"
 git lfs track "*.zip"
 ```
+
+![](track-file-example.jpg)
 
 Replace the file patterns with those relevant to your specific situation.
 
@@ -141,6 +146,9 @@ After setting up Git LFS in the command line:
 
 
 ## Handling Long Filename Issues in Git on Windows
+
+**If you get an error window, and "filename too long" is on it, then follow the steps below.
+![](filename-too-long-error.jpg)
 
 ### Step 1: Open PowerShell as Administrator
 
@@ -181,6 +189,9 @@ git config core.longpaths true
 ```
 
 Replace `path/to/your/repository` with the actual path to your Git repository.
+
+### Here's an example of what the whole process looks like in powershell
+![](long-name-solution-example.jpg)
 
 ### Step 5: Retry Your Git Operations
 
