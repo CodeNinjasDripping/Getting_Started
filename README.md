@@ -1,9 +1,6 @@
 # Unity Project Setup and Management Guide With GitHub Desktop 🚀
 
 ## Table of Contents
-
-- [Unity Project Setup and Management Guide With GitHub Desktop](#unity-project-setup-and-management-guide-with-github-desktop)
-- [Table of Contents](#table-of-contents)
 - [Preparing for Students](#preparing-for-students)
   - [GitHub Desktop](#github-desktop)
   - [Unity](#unity)
@@ -12,7 +9,9 @@
   - [Starting a New Project](#starting-a-new-project)
   - [Saving the Project to GitHub](#saving-the-project-to-github)
   - [Continuing an Existing Project](#continuing-an-existing-project)
-- [Troubleshooting](#Troubleshooting-Large-Files-with-Git-LFS)
+- [Troubleshooting](#troubleshooting)
+  - [Handling Large Files with Git LFS](#handling-large-files-with-git-lfs)
+  - [Handling Long Filename Issues in Git on Windows](#handling-long-filename-issues-in-git-on-windows)
 
 ## Preparing for Students
 
