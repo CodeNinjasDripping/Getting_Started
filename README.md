@@ -125,7 +125,7 @@ git lfs track "*.dylib"
 
 ### **Example**
 ![](track-file-example.jpg)
-
+--- 
 Replace the file patterns with those relevant to your specific situation.
 
 ### Step 4: Update .gitattributes
