@@ -102,7 +102,7 @@ First, you need to install Git LFS on your system. Open your command prompt or t
 git lfs install
 ```
 
-This command configures Git LFS to be used in any repository on your system.
+**This command configures Git LFS to be used in any repository on your system.**
 
 If you get this error that git isn't recognized, then you have to [install git](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
 ![](git-not-recognized.jpg)
