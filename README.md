@@ -107,6 +107,7 @@ git lfs install
 
 ### If you get this error that git isn't recognized, then you have to [install git](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
 ![](git-not-recognized.jpg)
+--- 
 
 ### Step 2: Navigate to Your Local Repository assuming git is installed
 Using the command line, navigate to the local repository where you are encountering the large file issue:
@@ -150,6 +151,7 @@ After setting up Git LFS in the command line:
 
 ### **If you get an error window, and "filename too long" is on it, then follow the steps below.**
 ![](filename-too-long-error.jpg)
+--- 
 
 ### Step 1: Open PowerShell as Administrator
 
@@ -194,6 +196,7 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
 ### Here's an example of what the whole process looks like in powershell
 - you will start in `system32`, you have to cd.. out of it and navigate to the local repo
 ![](long-name-solution-example.jpg)
+--- 
 
 ### Step 5: Retry Your Git Operations
 
