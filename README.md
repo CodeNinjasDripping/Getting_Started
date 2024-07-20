@@ -12,6 +12,7 @@
 - [Troubleshooting](#troubleshooting)
   - [Troubleshooting Large Files with Git LFS](#troubleshooting-large-files-with-git-lfs)
   - [Troubleshooting Long Filename Issues in Git on Windows](#troubleshooting-long-filename-issues-in-git-on-windows)
+  - [Filename Too Long Error During Cloning From Remote Repo](#filename-too-long-error-during-cloning-from-remote-repo)
 
 ## Preparing for Students
 
