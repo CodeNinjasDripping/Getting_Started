@@ -92,6 +92,8 @@ Determine the student's goal:
 
 ## Troubleshooting Large Files with Git LFS
 
+Example
+![](lfs-too-large.png)
 
 ### Step 1: Install Git LFS
 First, you need to install Git LFS on your system. Open your command prompt or terminal and install Git LFS by running:
