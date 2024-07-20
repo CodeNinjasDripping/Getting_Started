@@ -88,6 +88,7 @@ Determine the student's goal:
 
 ---
 
+# Troubleshooting
 
 ## Troubleshooting Large Files with Git LFS
 
