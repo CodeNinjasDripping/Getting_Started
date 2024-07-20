@@ -94,6 +94,7 @@ Determine the student's goal:
 
 ### **Example, also notice how it tells you the filename that is too large as well, that is what you track.**
 ![](lfs-too-large.jpg)
+---
 
 ### Step 1: Install Git LFS
 First, you need to install Git LFS on your system. Open your command prompt or terminal and install Git LFS by running:
