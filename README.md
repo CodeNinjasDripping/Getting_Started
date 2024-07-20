@@ -147,7 +147,7 @@ After setting up Git LFS in the command line:
 
 ## Handling Long Filename Issues in Git on Windows
 
-**If you get an error window, and "filename too long" is on it, then follow the steps below.
+**If you get an error window, and "filename too long" is on it, then follow the steps below.**
 ![](filename-too-long-error.jpg)
 
 ### Step 1: Open PowerShell as Administrator
