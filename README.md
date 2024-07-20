@@ -123,6 +123,7 @@ Identify the file types mentioned in the error message (for example, `.dylib`). 
 git lfs track "*.dylib"
 ```
 
+**Example**
 ![](track-file-example.jpg)
 
 Replace the file patterns with those relevant to your specific situation.
