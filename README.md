@@ -12,8 +12,8 @@
   - [Continuing an Existing Project](#continuing-an-existing-project)
 - [Troubleshooting](#troubleshooting)
   - [Troubleshooting Large Files with Git LFS](#troubleshooting-large-files-with-git-lfs)
-  - [Troubleshooting Long Filename Issues in Git on Windows](#troubleshooting-long-filename-issues-in-git-on-windows)
-  - [Filename Too Long Error During Cloning From Remote Repo](#filename-too-long-error-during-cloning-from-remote-repo)
+  - [Troubleshooting Long Filename Issues in Git on Windows](#LongFilename Error When Pushing To Remote Repo)
+  - [Filename Too Long Error During Cloning From Remote Repo](#filename-too-long-error-when-pushing-to-repo)
 
 ## Preparing for Students
 
@@ -155,7 +155,7 @@ After setting up Git LFS in the command line:
 4. Commit your changes as usual in GitHub Desktop and push them to the remote repository.
 
 
-## Troubleshooting Long Filename Issues in Git on Windows
+## Filename Too Long Error When Pushing To Remote Repo
 
 --- 
 ### **If you get an error window, and "filename too long" is on it, then follow the steps below.**
