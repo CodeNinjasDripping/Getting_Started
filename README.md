@@ -210,6 +210,8 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
 
 ## Filename too long error during cloning from remote repo
   - Go to your `GitHub Desktop Folder -> app -> resources -> app -> git -> mingw64 -> etc -> gitconfig , and there under [core] section add this field "longpaths = true"`
+  - Example location: `C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc`
+    - You can get to appdata by typing `run` in the windows search bar, and entering the command `%appdata%
   - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
 ---
 
