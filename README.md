@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Preparing for Students](#preparing-for-students)
-  - [Git]
+  - [Git](#git)
   - [GitHub Desktop](#github-desktop)
   - [Unity](#unity)
 - [Handling Student Sessions](#handling-student-sessions)
