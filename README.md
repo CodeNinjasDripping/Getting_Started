@@ -218,18 +218,17 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
       ```bash
       cd C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc
       ```
- If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
-	   - You can get to appdata by running the command
-	        ```bash
-	        C:\Users\cndri\AppData\Local
-	        ```
-	- Now you'll have to manually go through and find the `etc` folder, refer to the path above for reference.
+    - If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
+    - You can get to appdata by running the command
+        ```bash
+        C:\Users\cndri\AppData\Local
+        ```
+      - Now you'll have to manually go through and find the `etc` folder, refer to the path above for reference.
   - Once you're in that directory in the command prompt, enter in this command:
       ```bash
       git config --system core.longpaths true
       ```
-    >If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
+    - If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
   - Here's an example run of the steps above: ![](longpath-command.png)
   - After executing that command, **you need to restart Github Desktop**, then refer back to [Continuing a Different Project](#continuing-an-existing-project)
 ---
-
