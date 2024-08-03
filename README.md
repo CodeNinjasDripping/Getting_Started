@@ -225,6 +225,6 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
       git config --system core.longpaths true
       ```
     - If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
-  - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
+  - After executing that command, then refer back to [Continuing a Different Project](#continuing-an-existing-project)
 ---
 
