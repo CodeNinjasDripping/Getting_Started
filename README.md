@@ -209,7 +209,7 @@ After applying the configuration, return to GitHub Desktop and commit the change
 ---
 
 ## Filename too long error during cloning from remote repo
-  - If that error is encountered, manually download the zip repo file from github.com, unzip it into a folder on the desktop, load it into unity and let them work on the project that way
+  - Go to your `GitHub Desktop Folder -> app -> resources -> app -> git -> mingw64 -> etc -> gitconfig , and there under [core] section add this field "longpaths = true"`
   - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
 ---
 
