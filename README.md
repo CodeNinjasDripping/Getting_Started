@@ -19,7 +19,7 @@
 
 ### Git
 - Ensure that git is installed on the machine by opening the command prompt and typing `git`.
-- If you get the error that git isn't recognized, install it [here](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe), otherwise, proceed.
+- If you get the error that git isn't recognized, install it [here](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe) and click `next` through the entire install process.  Otherwise, proceed.
 
 ### GitHub Desktop
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
