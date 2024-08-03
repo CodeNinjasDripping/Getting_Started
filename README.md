@@ -205,7 +205,7 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
 
 ### Step 5: Retry Your Git Operations
 
-After applying the configuration, return to GitHub Desktop and commit the changes, then push to the remote repo.
+- After applying the configuration, return to GitHub Desktop and commit the changes, then push to the remote repo.
 ---
 
 ## Filename too long error during cloning from remote repo
