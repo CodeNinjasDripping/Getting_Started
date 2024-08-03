@@ -59,8 +59,7 @@ Determine the student's goal:
    - **Repository Name:** Should match the local repository name.
    - **Privacy:** Make sure the repository is public—uncheck any options for privacy.
    - Once that's taken care of, publish the repo!
-   <img src="correct-publish-repo-field.png" alt="Image Description" style="border: 2px solid black; padding: 5px; border-radius: 10px;">
-   ![]()
+   ![](correct-publish-repo-field.png)
 
 #### 🎮 Step 3: Setting Up the Project
 1. **Create a Unity Project:** Fire up Unity and establish a new project in the directory you set on your desktop.
