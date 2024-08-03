@@ -12,7 +12,7 @@
   - [Continuing an Existing Project](#continuing-an-existing-project)
 - [Troubleshooting](#troubleshooting)
   - [Troubleshooting Large Files with Git LFS](#troubleshooting-large-files-with-git-lfs)
-  - [Troubleshooting Long Filename Issues in Git on Windows](#filename-too-long-error-when-pushing-to-remote-repo)
+  - [Filename Too Long Error When Pushing To Remote Repo](#filename-too-long-error-when-pushing-to-remote-repo)
   - [Filename Too Long Error During Cloning From Remote Repo](#filename-too-long-error-during-cloning-from-remote-repo)
 
 ## Preparing for Students
