@@ -214,9 +214,10 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
 ---
 
 ## Filename too long error during cloning from remote repo
-  - Open up the command prompt in administrative mode, and navigate to the following location using this command ```bash
-    cd C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc
-    ```bash
+  - Open up the command prompt in administrative mode, and navigate to the following location using this command:
+      ```bash
+      cd C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc
+      ```bash
     - If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
     - You can get to appdata by typing `run` in the windows search bar, and entering the command `%appdata%
   - Once you're in that directory in the command prompt, enter in this command: `git config --system core.longpaths true`
