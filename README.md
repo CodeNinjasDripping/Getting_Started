@@ -220,9 +220,9 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
       ```
     > If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
 	   >  - You can get to appdata by running the command
-        ```bash
-        C:\Users\cndri\AppData\Local
-        ```
+	        ```bash
+	        C:\Users\cndri\AppData\Local
+	        ```
       > - Now you'll have to manually go through and find the `etc` folder, refer to the path above for reference.
   - Once you're in that directory in the command prompt, enter in this command:
       ```bash
