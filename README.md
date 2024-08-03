@@ -20,6 +20,10 @@
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
 - Sign into GitHub Desktop with the center GitHub account, the credentials are in the center discord general channel. You must also be signed into GitHub.com for authentication.
 
+### Git
+- Ensure that git is installed on the machine by opening the command prompt and typing `git`.
+- If you get the error that git isn't recognized, install it [here](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe)
+
 ### Unity
 1. **Unity Hub Check:** Ensure both Unity Hub and the Unity environment are installed. Search for `unity` to verify.
 2. **Download and Install (if needed):** If Unity is not installed, download it from the [Unity Download Page](https://unity.com/download).
@@ -209,9 +213,11 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
 ---
 
 ## Filename too long error during cloning from remote repo
-  - Go to your `GitHub Desktop Folder -> app -> resources -> app -> git -> mingw64 -> etc -> gitconfig , and there under [core] section add this field "longpaths = true"`
-  - Example location: `C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc`
+  - Open up the command prompt in administrative mode, and navigate to the following location using this command `cd C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc`
+    - If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
     - You can get to appdata by typing `run` in the windows search bar, and entering the command `%appdata%
+  - Once you're in that directory in the command prompt, enter in this command: `git config --system core.longpaths true`
+    - If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
   - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
 ---
 
