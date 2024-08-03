@@ -219,8 +219,8 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
       cd C:\Users\cndri\AppData\Local\GitHubDesktop\app-3.3.14\resources\app\git\mingw64\etc
       ```
     - If that location is invalid, you'll have to manually find the location and then copy the directory address into the command prompt with cd preceding it.
-    - You can get to appdata by typing `run` in the windows search bar, and entering the command `%appdata%
-  - Once you're in that directory in the command prompt, enter in this command: `git config --system core.longpaths true`
+    - You can get to appdata by typing `run` in the windows search bar, and entering the command `%appdata%`
+  - Once you're in that directory in the command prompt, enter in this command: ```bashgit config --system core.longpaths true```
     - If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
   - Once they finish, refer to [Continuing a Different Project](#continuing-an-existing-project)
 ---
