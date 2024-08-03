@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Preparing for Students](#preparing-for-students)
+  - [Git]
   - [GitHub Desktop](#github-desktop)
   - [Unity](#unity)
 - [Handling Student Sessions](#handling-student-sessions)
@@ -16,13 +17,13 @@
 
 ## Preparing for Students
 
+### Git
+- Ensure that git is installed on the machine by opening the command prompt and typing `git`.
+- If you get the error that git isn't recognized, install it [here](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe), otherwise, proceed.
+
 ### GitHub Desktop
 - Ensure GitHub Desktop is installed on the machine. If not, download it [here](https://central.github.com/deployments/desktop/desktop/latest/win32).
 - Sign into GitHub Desktop with the center GitHub account, the credentials are in the center discord general channel. You must also be signed into GitHub.com for authentication.
-
-### Git
-- Ensure that git is installed on the machine by opening the command prompt and typing `git`.
-- If you get the error that git isn't recognized, install it [here](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe)
 
 ### Unity
 1. **Unity Hub Check:** Ensure both Unity Hub and the Unity environment are installed. Search for `unity` to verify.
