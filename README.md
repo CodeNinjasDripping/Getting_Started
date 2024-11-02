@@ -57,7 +57,7 @@ Determine the student's goal:
 
 3. **Remote Repository Settings:**
    - **Repository Name:** Should match the local repository name.
-   - **Privacy:** Make sure the repository is public—uncheck any options for privacy.
+   - **Privacy:** Make sure the repository is **private** —check any options for privacy.
    - Once that's taken care of, publish the repo!
    ![](correct-publish-repo-field.png)
 
