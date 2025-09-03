@@ -36,6 +36,7 @@
 Determine the student's goal:
 - 🆕 [Starting a New Project](#starting-a-new-project)
 - 🔄 [Continuing an Existing Project](#continuing-an-existing-project)
+- [Creating a Repository for an Existing Project](#creating-a-repository-for-an-existing-project)
 ---
 
 ### Starting a New Project
@@ -47,7 +48,8 @@ Determine the student's goal:
    - **Name:** Format the repository name as `firstname_lastname_project_name`.
    - **Description:** Leave this field empty to keep things neat.
    - **Local Path:** Set the path to your desktop, e.g., `C:\Users\logan\Desktop`.
-   - **Initialize Options:** No README, .gitignore, or License. Keep it simple!
+   - **Initialize Options:** No README or License. Keep it simple!
+   - **GitIgnore** From the dropdown under `Git ignore` choose the Unity option. This ensures only required files are saved in GitHub.
      ![](create-new-repo.png)
 
 #### 🚀 Step 2: Publishing to GitHub
@@ -91,6 +93,16 @@ Determine the student's goal:
 ![](add-project-from-disk.png)
 
 8. **Work and Save:** Let students work on their project. As they wrap up (⏰ 10 minutes before the session ends), remind them to [save their changes to GitHub](#saving-the-project-to-github).
+
+---
+### Creating a Repository for an Existing Project
+This section describes how to create a repository for an *existing* Unity project.
+1. **Access GitGub Desktop** Assuming you are already logged in, navigate to `File > Add Local Repository`. This seems strange, but GitHub desktop will not let you create a new repository in a folder with files in it. (Our Unity Folder)
+2. **Select the Project** Click `Choose...` and navigate to the folder that contains the Unity Project.
+3. **Make a New Repository** The prompt should throw an error that reads `This directory does not appear to be a Git Repository. Would you like to create a repository instead?` You should then click `create a repository` in the error message. Then follow the steps in [on how to make a new repository](#starting-a-new-project)
+![](add-repo-error.png)
+
+We have to create the repository in this way to ensure the repository is created in the correct folder.
 
 ---
 
@@ -231,4 +243,25 @@ Replace `path/to/your/repository` with the actual path to your Git repository.
     - If you get the error that git isn't installed, then you need to refer to [Git](#git), and then come back here once it's installed.
   - Here's an example run of the steps above: ![](longpath-command.png)
   - After executing that command, **you need to restart Github Desktop**, then refer back to [Continuing a Different Project](#continuing-an-existing-project)
+---
+  
+## Empty Repository
+- If the repository is empty, it may be because the folder of the repository is not the same folder as the Unity installation. (Most commonly because its nest inside the Unity folder.)
+- Open file explorer, go to `View > Hidden Items`, and check it to see hidden items.
+  - Then open the project folder for the Unity game. (You should see folders like `Assets` and `Libraries`). In this folder there should be a few files that define it as repository.
+    - The `.gitattributes` file
+    - The `.gitignore` file
+    - The `.git` folder
+  - If it does not contain these files, it is not considered a repository. You either need to [Create a Repository](#creating-a-repository-for-an-existing-project) or check to see if there is a folder in the Unity folder with the same name as the repository.
+    - If there is a folder of the name of the repository in the project folder, move its contents to the project folder, and `Add local repository...` in GitHub desktop.
+    
+---
+## Invalid Materials
+![](broken-assets.png)
+- If a ninja imports Unity assets into their editor and none of the materials work; meaning they look like bright pink or cyan colors the assets need to be converted to the new render pipeline.
+    - Navigate to `Window > Rendering > Render Pipeline Converter`.
+    - On the dialog window, check all the checkboxes in the list.
+    - Then Click `Initalize Converters`
+    - Finally Click `Convert Assets`
+- After some loading, the materials should be visible properly again.
 ---
